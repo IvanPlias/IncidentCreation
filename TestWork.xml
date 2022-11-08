@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestWork</name>
+    </assembly>
+    <members>
+        <member name="M:TestWork.Controllers.IncidentsController.GetContact(System.String)">
+            <summary>
+            Returns a contact for a given email
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

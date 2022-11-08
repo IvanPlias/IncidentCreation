@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestWork</name>
+    </assembly>
+    <members>
+        <member name="M:TestWork.Controllers.IncidentsController.GetContact(System.String)">
+            <summary>
+            Returns a contact for a given email
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWork.Controllers.IncidentsController.GetAccount(System.String)">
+            <summary>
+            Returns a account for a given account_name
+            </summary>
+            <param name="account_name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWork.Controllers.IncidentsController.GetIncident(System.String)">
+            <summary>
+            Returns a incident for a given incident_name
+            </summary>
+            <param name="incident_name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWork.Controllers.IncidentsController.UpdateContact(System.String,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{TestWork.Models.Contact})">
+            <summary>
+            Update a contact for a given email
+            </summary>
+            <param name="email"></param>
+            <param name="contactUpdates"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWork.Controllers.IncidentsController.CreateContact(TestWork.Models.Contact)">
+            <summary>
+            Create Contact
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWork.Controllers.IncidentsController.CreateAccount(TestWork.Models.Account)">
+            <summary>
+            Create Account
+            </summary>
+            <param name="account"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
